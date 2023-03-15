@@ -1,0 +1,78 @@
+body{
+	background-image: url(fondo1.jpg);
+	color: rgb(255, 255, 255);
+  position: relative;
+  padding-bottom: 8em;
+  min-width: 100vh;
+  } 
+
+  ul{
+    list-style: none;
+    /*list-style-image: url(crown.png);
+    margin-left: 250px;*/
+  }
+
+  li::before{
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url(crown.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  a{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif, "Myriad Pro";
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  h1{
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  h2{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  p{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  label{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  form{
+    text-align: center;
+  }
+
+footer{
+  background-color: white;
+  padding: 1em 0;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+/*header{
+  background-color: white;
+  padding: 1em 0;
+  text-align: center;
+  letter-spacing: 0.2em;
+  margin-bottom: 1em;
+}*/
